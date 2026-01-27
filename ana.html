@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil von Anastasya Ulafika Rachman</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" style="font-size: 1.5rem; font-weight: bold;">AR.</div>
+            <ul>
+                <li><a href="#about" data-i18n="nav_about">Über mich</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Kenntnisse</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projekte</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+            </ul>
+            <div class="lang-switch">
+                <button onclick="setLanguage('de')" id="btn-de" class="active">DE</button>
+                <button onclick="setLanguage('en')" id="btn-en">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="ana.jpg" alt="Anastasya Ulafika Rachman" class="profile-pic">
+            <h1>Anastasya Ulafika Rachman</h1>
+            <p data-i18n="hero_sub">Angehende Auszubildende im Bereich IT</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 data-i18n="about_title">Über mich</h2>
+        <p data-i18n="about_text1">Ich habe meine Schulausbildung an einer Berufsfachschule (SMK) mit dem Schwerpunkt Multimedia abgeschlossen. Während meines Praktikums am Brawijaya Language Center konnte ich wertvolle Erfahrungen in der Administration sammeln, wie die Organisation von Sprachtests und die Datenverwaltung.</p>
+        <p data-i18n="about_text2">Aktuell bereite ich mich intensiv auf die B1-Prüfung vor, um meine berufliche Zukunft in Deutschland erfolgreich zu starten. Ich bin eine lernwillige, disziplinierte Person und freue mich darauf, meine Fähigkeiten in ein professionelles Team einzubringen.</p>
+    </section>
+
+    <section id="skills" style="background-color: #ebedef;">
+        <div class="container">
+            <h2 data-i18n="skills_title">Kenntnisse</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3 data-i18n="skill_lang_title">Sprachen</h3>
+                    <ul data-i18n="skill_lang_list">
+                        <li>Indonesisch: Muttersprache</li>
+                        <li>Deutsch: B1 (in Vorbereitung)</li>
+                        <li>Englisch: Grundkenntnisse</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 data-i18n="skill_it_title">IT & Technik</h3>
+                    <ul data-i18n="skill_it_list">
+                        <li>HTML, CSS & JavaScript (Basics)</li>
+                        <li>Microsoft Office</li>
+                        <li>Adobe Photoshop & CorelDRAW</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 data-i18n="projects_title">Meine Projekte</h2>
+        <div class="grid">
+            <div class="card project-card">
+                <h3>Multimedia & Design</h3>
+                <p data-i18n="project2_desc">Meine Grafikdesign-Arbeiten und mein kreatives Portfolio.</p>
+                <a href="https://www.canva.com/design/DAG_TmTh7-A/Q9dqFFVIe041-8sQ5ck5Qg/edit" target="_blank" class="btn btn-small" data-i18n="btn_view">Portfolio ansehen</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background-color: #2c3e50; color: white; text-align: center;">
+        <div class="container">
+            <h2 data-i18n="contact_title">Kontakt</h2>
+            <p data-i18n="contact_desc">Haben Sie Interesse? Ich freue mich pada Ihre Nachricht!</p>
+            <a href="mailto:anastasya.au@gmail.com" class="btn" data-i18n="contact_btn">E-Mail Senden</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="padding: 0;">
+            <p>&copy; 2026 Anastasya Ulafika Rachman</p>
+            <div class="impressum">
+                <strong style="color: white;">Impressum</strong><br>
+                Anastasya Ulafika Rachman<br>
+                Malang, Indonesien<br>
+                E-Mail: anastasya.au@gmail.com
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
